@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_blocks_about_uses",
+  "info": {
+    "displayName": "about-us",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrip": {
+      "type": "text"
+    },
+    "descrip_1": {
+      "type": "string"
+    },
+    "subtitle_1": {
+      "type": "text"
+    },
+    "descrip_2": {
+      "type": "string"
+    },
+    "subtitle_2": {
+      "type": "text"
+    },
+    "descrip_3": {
+      "type": "string"
+    },
+    "subtitle_3": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

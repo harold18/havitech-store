@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_descrip": {
+      "type": "text"
+    },
+    "hero_cta_descrip": {
+      "type": "text"
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

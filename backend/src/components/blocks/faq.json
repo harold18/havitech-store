@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "faq_question_1": {
+      "type": "string"
+    },
+    "faq_answer_1": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
