@@ -1,6 +1,6 @@
 import qs from 'qs';
 
-const STRAPI_URL = "https://superb-renewal-b5a5e75381.strapiapp.com/admin";
+const STRAPI_URL = "http://localhost:1337";
 
 export async function getHomePageData() {
   const query = qs.stringify({
