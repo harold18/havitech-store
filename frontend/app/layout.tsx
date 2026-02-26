@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from 'next/font/google';
 import "./globals.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const manrope = Manrope({ 
   subsets: ['latin'],

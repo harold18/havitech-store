@@ -58,7 +58,7 @@ export default function HeroSection({ data }: HeroProps) {
       <div className="relative overflow-hidden rounded-[2.5rem] bg-[#0a0a0a] shadow-[-38px_23px_36px_-32px_rgba(0,0,0,0.1)]">
         {imageUrl && (
           <div
-            className="flex min-h-[650px] flex-col justify-center bg-cover bg-[position:80%_center] lg:bg-[position:right_center] bg-no-repeat px-8 lg:px-20"
+            className="flex min-h-[650px] flex-col justify-center bg-cover bg-position-[80%_center] lg:bg-position-[right_center] bg-no-repeat px-8 lg:px-20"
             style={{
               backgroundImage:
                 `linear-gradient(90deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.2) 100%), url('${imageUrl}')`
