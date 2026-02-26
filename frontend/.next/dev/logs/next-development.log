@@ -15,3 +15,128 @@
 [00:12:24.235] Server  LOG     ✓ Compiled in 84ms
 [00:12:27.319] Server  LOG     ✓ Compiled in 51ms
 [00:14:15.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:41.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:57.702] Server  LOG     ✓ Compiled in 246ms
+[00:28:00.771] Server  LOG     ✓ Compiled in 90ms
+[00:31:45.737] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+> 2 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | interface AboutProps {
+  5 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/aboutussection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:45.744] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+> 2 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | interface AboutProps {
+  5 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/aboutussection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:45.827] Server  ERROR   ⨯ ./components/herosection.tsx:3:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+  2 | import Link from "next/link";
+> 3 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface HeroProps {
+  6 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/herosection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:45.856] Server  ERROR   ⨯ ./components/herosection.tsx:3:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+  2 | import Link from "next/link";
+> 3 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface HeroProps {
+  6 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/herosection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:52.736] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+> 2 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | interface AboutProps {
+  5 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/aboutussection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:31:52.741] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
+Module not found: Can't resolve '@/lib/strapi-images'
+  1 | import Image from "next/image";
+> 2 | import { getImageUrl } from "@/lib/strapi-images";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | interface AboutProps {
+  5 |   data: {
+
+Import map: aliased to relative './lib/strapi-images' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/aboutussection.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
