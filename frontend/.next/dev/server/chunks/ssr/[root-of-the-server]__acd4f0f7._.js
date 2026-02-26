@@ -22,7 +22,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$qs$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/qs/lib/index.js [app-rsc] (ecmascript)");
 ;
-const STRAPI_URL = "http://localhost:1337";
+const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 async function getHomePageData() {
     const query = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$qs$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].stringify({
         populate: {
@@ -47,7 +47,11 @@ async function getHomePageData() {
     });
     try {
         const res = await fetch(`${STRAPI_URL}/api/homepage?${query}`, {
-            cache: 'no-store'
+            // Permitimos que Next.js cachee e invalide periódicamente
+            // para reducir TTFB y evitar pedir siempre todo a Strapi.
+            next: {
+                revalidate: 60
+            }
         });
         if (!res.ok) {
             // Esto nos ayudará a ver el error exacto en la consola del navegador/servidor si falla
@@ -73,7 +77,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 ;
 ;
-const STRAPI_URL = "http://localhost:1337";
+const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 function HeroSection({ data }) {
     // Construimos la URL de la imagen
     const imageUrl = data.hero_image ? `${STRAPI_URL}${data.hero_image.url}` : null;
@@ -116,7 +120,7 @@ function HeroSection({ data }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative overflow-hidden rounded-[2.5rem] bg-[#0a0a0a] shadow-[-38px_23px_36px_-32px_rgba(0,0,0,0.1)]",
             children: imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex min-h-[650px] flex-col justify-center bg-cover bg-[position:80%_center] lg:bg-[position:right_center] bg-no-repeat px-8 lg:px-20",
+                className: "flex min-h-[650px] flex-col justify-center bg-cover bg-position-[80%_center] lg:bg-position-[right_center] bg-no-repeat px-8 lg:px-20",
                 style: {
                     backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.2) 100%), url('${imageUrl}')`
                 },
@@ -132,7 +136,7 @@ function HeroSection({ data }) {
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-400 md:text-lg font-medium leading-relaxed max-w-lg text-center md:text-start",
+                            className: "text-gray md:text-lg font-medium leading-relaxed max-w-lg text-center md:text-start",
                             children: data.hero_descrip
                         }, void 0, false, {
                             fileName: "[project]/components/herosection.tsx",
@@ -215,8 +219,10 @@ __turbopack_context__.s([
     ()=>AboutusSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
-const STRAPI_URL = "http://localhost:1337";
+;
+const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 function AboutusSection({ data }) {
     const imageUrl = data.image ? `${STRAPI_URL}${data.image.url}` : null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -237,7 +243,7 @@ function AboutusSection({ data }) {
                                         children: data.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/aboutussection.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 31,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -245,13 +251,13 @@ function AboutusSection({ data }) {
                                         children: data.descrip
                                     }, void 0, false, {
                                         fileName: "[project]/components/aboutussection.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/aboutussection.tsx",
-                                lineNumber: 28,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -267,12 +273,12 @@ function AboutusSection({ data }) {
                                                     children: "engineering"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/aboutussection.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 41,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 38,
+                                                lineNumber: 40,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -282,7 +288,7 @@ function AboutusSection({ data }) {
                                                         children: data.descrip_1
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 42,
+                                                        lineNumber: 44,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -290,19 +296,19 @@ function AboutusSection({ data }) {
                                                         children: data.subtitle_1
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 43,
+                                                        lineNumber: 45,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 41,
+                                                lineNumber: 43,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/aboutussection.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -315,12 +321,12 @@ function AboutusSection({ data }) {
                                                     children: "fingerprint"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/aboutussection.tsx",
-                                                    lineNumber: 48,
+                                                    lineNumber: 50,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 49,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -330,7 +336,7 @@ function AboutusSection({ data }) {
                                                         children: data.descrip_2
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 53,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -338,19 +344,19 @@ function AboutusSection({ data }) {
                                                         children: data.subtitle_2
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 54,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 50,
+                                                lineNumber: 52,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/aboutussection.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 48,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -363,12 +369,12 @@ function AboutusSection({ data }) {
                                                     children: "payments"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/aboutussection.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 59,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -378,7 +384,7 @@ function AboutusSection({ data }) {
                                                         children: data.descrip_3
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 62,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -386,70 +392,73 @@ function AboutusSection({ data }) {
                                                         children: data.subtitle_3
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/aboutussection.tsx",
-                                                        lineNumber: 61,
+                                                        lineNumber: 63,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/aboutussection.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 61,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/aboutussection.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/aboutussection.tsx",
-                                lineNumber: 36,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/aboutussection.tsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full md:w-1/2 flex justify-center items-center mt-6 md:mt-0 mb-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full flex justify-center",
-                            children: imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            children: imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 src: imageUrl,
                                 alt: data.image?.alternativeText || "Imagen sobre nosotros",
-                                className: "rounded-3xl shadow-lg block max-w-[90vw] w-full sm:max-w-[500px] md:max-w-[700px] h-[220px] sm:h-[350px] md:h-[550px] object-cover object-center transition-all duration-300"
+                                width: 800,
+                                height: 600,
+                                className: "rounded-3xl shadow-lg block max-w-[90vw] w-full sm:max-w-[500px] md:max-w-[700px] h-[220px] sm:h-[350px] md:h-[550px] object-cover object-center transition-all duration-300",
+                                priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/aboutussection.tsx",
-                                lineNumber: 69,
+                                lineNumber: 71,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/aboutussection.tsx",
-                            lineNumber: 67,
+                            lineNumber: 69,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/aboutussection.tsx",
-                        lineNumber: 66,
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/aboutussection.tsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/aboutussection.tsx",
-            lineNumber: 25,
+            lineNumber: 27,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/aboutussection.tsx",
-        lineNumber: 24,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }

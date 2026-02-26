@@ -6,6 +6,7 @@ const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337"
 interface HeroProps {
   data: {
     id: number;
+    // NOMBRES NUEVOS basados en tu captura:
     hero_title: string;
     hero_descrip: string;
     hero_cta_descrip: string;
@@ -23,7 +24,7 @@ export default function HeroSection({ data }: HeroProps) {
   const renderStyledTitle = (text: string) => {
     if (!text) return null;
 
-    // PASO 1: Dividir el texto cada vez que encontremos un "<br>"
+    // PASO 1: Dividimos el texto cada vez que encontremos un "<br>"
     const lines = text.split('<br>');
 
     return lines.map((line, lineIndex) => {
