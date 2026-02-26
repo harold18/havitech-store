@@ -3,18 +3,18 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      // 1. Permiso para Strapi en la Nube (Producción)
+      // Cualquier proyecto de Strapi Cloud (*.strapiapp.com)
       {
         protocol: 'https',
-        hostname: 'superb-renewal-b5a5e75381.strapiapp.com', 
+        hostname: '*.strapiapp.com',
         port: '',
         pathname: '/**',
       },
-      // 2. Permiso para Strapi Local (Desarrollo)
+      // Strapi local (desarrollo)
       {
         protocol: 'http',
         hostname: 'localhost',
-        port: '1337', // El puerto de tu Strapi local
+        port: '1337',
         pathname: '/**',
       },
     ],

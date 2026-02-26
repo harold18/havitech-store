@@ -3,6 +3,13 @@ import Link from "next/link";
 
 const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 
+function getImageUrl(url: string | undefined): string | null {
+  if (!url) return null;
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  const base = STRAPI_URL.endsWith("/") ? STRAPI_URL.slice(0, -1) : STRAPI_URL;
+  return `${base}${url.startsWith("/") ? url : `/${url}`}`;
+}
+
 interface HeroProps {
   data: {
     id: number;
@@ -18,8 +25,7 @@ interface HeroProps {
 }
 
 export default function HeroSection({ data }: HeroProps) {
-  // Construimos la URL de la imagen
-  const imageUrl = data.hero_image ? `${STRAPI_URL}${data.hero_image.url}` : null;
+  const imageUrl = getImageUrl(data.hero_image?.url) ?? null;
 
   const renderStyledTitle = (text: string) => {
     if (!text) return null;

@@ -1,3 +1,17 @@
-[00:00:02.334] Server  LOG     ✓ Ready in 1822ms
-[00:00:04.619] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_797505e1bc.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
-[00:00:04.623] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.517] Server  LOG     ✓ Ready in 1662ms
+[00:00:04.924] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
+[00:00:05.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.812] Server  LOG     ✓ Compiled in 105ms
+[00:00:19.729] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
+[00:01:51.798] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
+[00:01:52.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:54.886] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
+[00:01:55.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:32.144] Server  LOG     ✓ Compiled in 162ms
+[00:09:02.474] Server  LOG       Reload env: .env
+[00:09:05.635] Server  LOG     ✓ Compiled in 2.8s
+[00:09:05.645] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:09:08.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:24.235] Server  LOG     ✓ Compiled in 84ms
+[00:12:27.319] Server  LOG     ✓ Compiled in 51ms
+[00:14:15.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

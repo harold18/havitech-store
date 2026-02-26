@@ -2,6 +2,13 @@ import Image from "next/image";
 
 const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 
+function getImageUrl(url: string | undefined): string | null {
+  if (!url) return null;
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  const base = STRAPI_URL.endsWith("/") ? STRAPI_URL.slice(0, -1) : STRAPI_URL;
+  return `${base}${url.startsWith("/") ? url : `/${url}`}`;
+}
+
 interface AboutProps {
   data: {
     id: number;
@@ -21,7 +28,7 @@ interface AboutProps {
 }
 
 export default function AboutusSection({ data }: AboutProps) {
-  const imageUrl = data.image ? `${STRAPI_URL}${data.image.url}` : null;
+  const imageUrl = getImageUrl(data.image?.url) ?? null;
   return (
     <section className="container mx-auto w-full py-8 px-4 sm:px-6 md:py-15">
       <div className="about-back min-h-full md:min-h-[650px] bg-[#0c111cb3] backdrop-blur-md border border-[#c2c2c21a] rounded-3xl p-4 sm:p-6 md:p-8 overflow-hidden flex flex-col md:flex-row justify-center items-center gap-8 md:gap-0">
@@ -75,6 +82,7 @@ export default function AboutusSection({ data }: AboutProps) {
                   height={600}
                   className="rounded-3xl shadow-lg block max-w-[90vw] w-full sm:max-w-[500px] md:max-w-[700px] h-[220px] sm:h-[350px] md:h-[550px] object-cover object-center transition-all duration-300"
                   priority
+                  unoptimized
                 />
               )}
             </div>
