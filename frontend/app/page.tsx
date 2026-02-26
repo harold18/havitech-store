@@ -4,6 +4,7 @@ import { getHomePageData } from "@/services/strapi";
 import HeroSection from "@/components/herosection";
 import AboutusSection from "@/components/aboutussection";
 import FaqSection from "@/components/faqsection";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default async function Home() {
   const strapiData = await getHomePageData();
