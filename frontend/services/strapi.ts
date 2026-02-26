@@ -27,7 +27,9 @@ export async function getHomePageData() {
 
   try {
     const res = await fetch(`${STRAPI_URL}/api/homepage?${query}`, {
-      cache: 'no-store',
+      // Permitimos que Next.js cachee e invalide periódicamente
+      // para reducir TTFB y evitar pedir siempre todo a Strapi.
+      next: { revalidate: 60 },
     });
 
     if (!res.ok) {

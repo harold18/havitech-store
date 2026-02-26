@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || "http://localhost:1337";
 
 interface AboutProps {
@@ -66,10 +68,13 @@ export default function AboutusSection({ data }: AboutProps) {
           <div className="w-full md:w-1/2 flex justify-center items-center mt-6 md:mt-0 mb-0">
             <div className="w-full flex justify-center">
               {imageUrl && (
-                <img
+                <Image
                   src={imageUrl}
                   alt={data.image?.alternativeText || "Imagen sobre nosotros"}
+                  width={800}
+                  height={600}
                   className="rounded-3xl shadow-lg block max-w-[90vw] w-full sm:max-w-[500px] md:max-w-[700px] h-[220px] sm:h-[350px] md:h-[550px] object-cover object-center transition-all duration-300"
+                  priority
                 />
               )}
             </div>
