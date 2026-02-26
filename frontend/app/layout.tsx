@@ -26,6 +26,7 @@ export default function RootLayout({
       </head>
       <body className="{`${manrope.className} antialiased`}">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
