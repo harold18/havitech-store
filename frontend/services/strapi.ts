@@ -10,15 +10,17 @@ export async function getHomePageData() {
         on: {
           // AQUÍ ES IMPORTANTE: Debes usar el UID de tu componente.
           // Formato: 'categoria.nombre_componente'
-          // Basado en tu imagen anterior, tu categoría es 'Herosection' y el nombre 'hero_section'
           'blocks.hero': {
-            populate: '*' // Esto trae la imagen y todos los campos del Hero
+            populate: '*' 
           },
           'blocks.about-us': {
             populate: '*'
           },
           'blocks.faq': { 
             populate: '*' 
+          },
+          'blocks.compra-asistida': {
+            populate: '*'
           }
         },
       },
@@ -33,7 +35,7 @@ export async function getHomePageData() {
     });
 
     if (!res.ok) {
-      // Esto nos ayudará a ver el error exacto en la consola del navegador/servidor si falla
+      // Esto ayuda a ver el error exacto en la consola del navegador/servidor si falla
       const errorBody = await res.text(); 
       throw new Error(`Error Strapi ${res.status}: ${errorBody}`);
     }

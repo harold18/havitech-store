@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_compra_asistidas",
+  "info": {
+    "displayName": "compra-asistida",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descrip": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

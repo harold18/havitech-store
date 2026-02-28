@@ -16,7 +16,8 @@
       "components": [
         "blocks.hero",
         "blocks.faq",
-        "blocks.about-us"
+        "blocks.about-us",
+        "blocks.compra-asistida"
       ]
     }
   }

@@ -1,142 +1,1093 @@
-[00:00:02.517] Server  LOG     ✓ Ready in 1662ms
-[00:00:04.924] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
-[00:00:05.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.812] Server  LOG     ✓ Compiled in 105ms
-[00:00:19.729] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
-[00:01:51.798] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
-[00:01:52.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:54.886] Server  ERROR   ⨯ "upstream image" "http://localhost:1337/uploads/about_image_5c96e82d8e.png" "resolved to private ip" "[\"::1\",\"127.0.0.1\"]"
-[00:01:55.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:32.144] Server  LOG     ✓ Compiled in 162ms
-[00:09:02.474] Server  LOG       Reload env: .env
-[00:09:05.635] Server  LOG     ✓ Compiled in 2.8s
-[00:09:05.645] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:09:08.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:24.235] Server  LOG     ✓ Compiled in 84ms
-[00:12:27.319] Server  LOG     ✓ Compiled in 51ms
-[00:14:15.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:41.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:57.702] Server  LOG     ✓ Compiled in 246ms
-[00:28:00.771] Server  LOG     ✓ Compiled in 90ms
-[00:31:45.737] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-> 2 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | interface AboutProps {
-  5 |   data: {
+[00:01:15.791] Server  LOG     ✓ Ready in 56.5s
+[00:04:56.940] Server  LOG     ○ Compiling / ...
+[00:05:56.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:57.548] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:57.548] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:57.548] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772295537786} /_vercel/insights/view
+[00:05:57.548] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:24.318] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772295537787-4882434388056","route":"/","type":"TTFB","value":62466}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[00:30:28.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:29.001] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:29.001] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:29.001] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772297009296} /_vercel/insights/view
+[00:30:29.001] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:38.062] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772297009303-9323308960279","route":"/","type":"TTFB","value":92}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:16:15.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:15.323] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:16:15.323] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:16:15.323] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772299755622} /_vercel/insights/view
+[01:16:15.323] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:18:05.948] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/aboutussection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:31:45.744] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-> 2 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | interface AboutProps {
-  5 |   data: {
+[01:18:05.955] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/aboutussection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:31:45.827] Server  ERROR   ⨯ ./components/herosection.tsx:3:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-  2 | import Link from "next/link";
-> 3 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface HeroProps {
-  6 |   data: {
+[01:18:05.969] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/herosection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:31:45.856] Server  ERROR   ⨯ ./components/herosection.tsx:3:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-  2 | import Link from "next/link";
-> 3 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | interface HeroProps {
-  6 |   data: {
+[01:18:05.972] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/herosection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:31:52.736] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-> 2 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | interface AboutProps {
-  5 |   data: {
+[01:18:05.976] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/aboutussection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:31:52.741] Server  ERROR   ⨯ ./components/aboutussection.tsx:2:1
-Module not found: Can't resolve '@/lib/strapi-images'
-  1 | import Image from "next/image";
-> 2 | import { getImageUrl } from "@/lib/strapi-images";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | interface AboutProps {
-  5 |   data: {
+[01:18:05.980] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
 
-Import map: aliased to relative './lib/strapi-images' inside of [project]/
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./components/aboutussection.tsx
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
+[01:18:05.983] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.985] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.989] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.991] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.994] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.996] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:05.998] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:06.000] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:06.109] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/compra-asistida'
+  4 | import HeroSection from "@/components/herosection";
+  5 | import AboutusSection from "@/components/aboutussection";
+> 6 | import CompraAsistida from "@/components/compra-asistida";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import FaqSection from "@/components/faqsection";
+  8 |
+  9 | export default async function Home() {
+
+Import map: aliased to relative './components/compra-asistida' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:18:16.357] Server  LOG     ✓ Compiled in 147ms
+[01:18:50.945] Server  LOG     ✓ Compiled in 68ms
+[01:20:31.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:31.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:31.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:20:31.566] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300011855} /_vercel/insights/view
+[01:20:31.566] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:46.371] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300011857-2675338938248","route":"/","type":"FCP","value":707},{"href":"http://localhost:3000/#comprar","id":"v3-1772300011858-4046845800882","route":"/","type":"TTFB","value":287},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300011857-6756433976034","route":"/","type":"LCP","value":748}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:22:20.459] Server  LOG     ✓ Compiled in 131ms
+[01:22:23.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:23.857] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:23.857] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:22:23.857] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300124156} /_vercel/insights/view
+[01:22:23.857] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:25.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:26.245] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:26.245] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:26.245] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:22:26.245] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300126545} /_vercel/insights/view
+[01:22:33.819] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300126540-2645814472636","route":"/","type":"FCP","value":414},{"href":"http://localhost:3000/#comprar","id":"v3-1772300126542-4198135948878","route":"/","type":"TTFB","value":86},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300126540-7070581251547","route":"/","type":"LCP","value":505}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:23:11.466] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:11.698] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:23:11.698] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:23:11.698] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:23:11.699] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300171989} /_vercel/insights/view
+[01:23:27.031] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300171962-4237625035810","route":"/","type":"TTFB","value":71}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:24:25.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:25.817] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:24:25.817] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:24:25.817] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300246115} /_vercel/insights/view
+[01:24:25.817] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:24:29.448] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300246119-3323260099898","route":"/","type":"FCP","value":560},{"href":"http://localhost:3000/#comprar","id":"v3-1772300246119-4325458061054","route":"/","type":"TTFB","value":118},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300246119-8170430352882","route":"/","type":"LCP","value":569}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:25:31.824] Server  LOG     ✓ Compiled in 52ms
+[01:25:31.929] Server  LOG     Componente detectado: "blocks.hero"
+[01:25:31.930] Server  LOG     Componente detectado: "blocks.about-us"
+[01:25:31.930] Server  LOG     Componente detectado: "blocks.faq"
+[01:28:14.072] Server  LOG     ✓ Compiled in 56ms
+[01:28:14.074] Server  LOG     ○ Compiling / ...
+[01:28:14.160] Server  LOG     Componente detectado: "blocks.hero"
+[01:28:14.161] Server  LOG     Componente detectado: "blocks.about-us"
+[01:28:14.161] Server  LOG     Componente detectado: "blocks.faq"
+[01:28:14.173] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"html.manrope_6f68650c-module__zwXm3G__variable>body.{`${manrope.className}.antialiased`}","eventType":"keydown"},"href":"http://localhost:3000/#comprar","id":"v3-1772300246119-9753135108394","route":"/","type":"INP","value":16}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:28:14.301] Server  LOG     Componente detectado: "blocks.hero"
+[01:28:14.302] Server  LOG     Componente detectado: "blocks.about-us"
+[01:28:14.302] Server  LOG     Componente detectado: "blocks.faq"
+[01:28:46.736] Server  LOG     Componente detectado: "blocks.hero"
+[01:28:46.736] Server  LOG     Componente detectado: "blocks.about-us"
+[01:28:46.737] Server  LOG     Componente detectado: "blocks.faq"
+[01:28:47.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:47.812] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:28:47.812] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:28:47.812] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300508113} /_vercel/insights/view
+[01:28:47.812] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:28:51.873] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300508114-7184238725312","route":"/","type":"FCP","value":613},{"href":"http://localhost:3000/#comprar","id":"v3-1772300508114-1240646536756","route":"/","type":"TTFB","value":194},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300508114-4105991212860","route":"/","type":"LCP","value":642}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:29:08.785] Server  LOG     Componente detectado: "blocks.hero"
+[01:29:08.786] Server  LOG     Componente detectado: "blocks.about-us"
+[01:29:08.786] Server  LOG     Componente detectado: "blocks.faq"
+[01:29:09.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:09.645] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:29:09.645] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:29:09.645] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300529943} /_vercel/insights/view
+[01:29:09.645] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:29:14.538] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300529947-3689927189375","route":"/","type":"FCP","value":408},{"href":"http://localhost:3000/#comprar","id":"v3-1772300529947-3376480495711","route":"/","type":"TTFB","value":108},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300529947-8057022127813","route":"/","type":"LCP","value":453}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:30:01.264] Server  LOG     ✓ Compiled in 46ms
+[01:30:01.364] Server  LOG     Componente detectado: "blocks.hero"
+[01:30:01.365] Server  LOG     Componente detectado: "blocks.about-us"
+[01:30:01.366] Server  LOG     Componente detectado: "blocks.faq"
+[01:30:06.381] Server  LOG     Componente detectado: "blocks.hero"
+[01:30:06.382] Server  LOG     Componente detectado: "blocks.about-us"
+[01:30:06.382] Server  LOG     Componente detectado: "blocks.faq"
+[01:30:06.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:07.402] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:07.402] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:07.402] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:30:07.402] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300587703} /_vercel/insights/view
+[01:31:04.444] Server  LOG     Componente detectado: "blocks.hero"
+[01:31:04.445] Server  LOG     Componente detectado: "blocks.about-us"
+[01:31:04.445] Server  LOG     Componente detectado: "blocks.faq"
+[01:31:04.457] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300587700-1396048881814","route":"/","type":"FCP","value":638},{"href":"http://localhost:3000/#comprar","id":"v3-1772300587700-7618074644784","route":"/","type":"TTFB","value":223},{"attribution":{"eventTarget":"span.block.w-full"},"href":"http://localhost:3000/#comprar","id":"v3-1772300587700-9161848800042","route":"/","type":"LCP","value":638}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:31:09.267] Server  LOG     Componente detectado: "blocks.hero"
+[01:31:09.267] Server  LOG     Componente detectado: "blocks.about-us"
+[01:31:09.268] Server  LOG     Componente detectado: "blocks.faq"
+[01:31:09.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:10.288] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:31:10.288] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:31:10.288] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300650589} /_vercel/insights/view
+[01:31:10.288] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:33:09.495] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300650589-6521155856720","route":"/","type":"FCP","value":566},{"href":"http://localhost:3000/#comprar","id":"v3-1772300650590-2758788686050","route":"/","type":"TTFB","value":172},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300650589-4412196253486","route":"/","type":"LCP","value":613}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:34:18.991] Server  LOG     Componente detectado: "blocks.hero"
+[01:34:18.992] Server  LOG     Componente detectado: "blocks.about-us"
+[01:34:18.992] Server  LOG     Componente detectado: "blocks.faq"
+[01:34:19.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:19.718] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:34:19.718] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:34:19.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:34:19.718] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300840018} /_vercel/insights/view
+[01:34:46.813] Server  LOG     Componente detectado: "blocks.hero"
+[01:34:46.814] Server  LOG     Componente detectado: "blocks.about-us"
+[01:34:46.814] Server  LOG     Componente detectado: "blocks.faq"
+[01:34:55.352] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300840012-7340997917388","route":"/","type":"TTFB","value":93}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:35:12.468] Server  LOG     ✓ Compiled in 25ms
+[01:35:12.585] Server  LOG     Componente detectado: "blocks.hero"
+[01:35:12.587] Server  LOG     Componente detectado: "blocks.about-us"
+[01:35:12.587] Server  LOG     Componente detectado: "blocks.faq"
+[01:35:22.128] Server  LOG     ✓ Compiled in 45ms
+[01:35:22.238] Server  LOG     Componente detectado: "blocks.hero"
+[01:35:22.239] Server  LOG     Componente detectado: "blocks.about-us"
+[01:35:22.240] Server  LOG     Componente detectado: "blocks.faq"
+[01:35:28.223] Server  LOG     Componente detectado: "blocks.hero"
+[01:35:28.224] Server  LOG     Componente detectado: "blocks.about-us"
+[01:35:28.225] Server  LOG     Componente detectado: "blocks.faq"
+[01:35:28.754] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:29.174] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:35:29.174] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:35:29.174] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772300909464} /_vercel/insights/view
+[01:35:29.174] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:35:34.011] Server  LOG     ✓ Compiled in 20ms
+[01:35:34.248] Server  LOG     Componente detectado: "blocks.hero"
+[01:35:34.250] Server  LOG     Componente detectado: "blocks.about-us"
+[01:35:34.251] Server  LOG     Componente detectado: "blocks.faq"
+[01:35:37.509] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772300909476-1351016778930","route":"/","type":"FCP","value":582},{"href":"http://localhost:3000/#comprar","id":"v3-1772300909476-7885481820222","route":"/","type":"TTFB","value":220},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772300909476-7846604495190","route":"/","type":"LCP","value":614}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:40:46.355] Server  LOG     Componente detectado: "blocks.hero"
+[01:40:46.357] Server  LOG     Componente detectado: "blocks.about-us"
+[01:40:46.358] Server  LOG     Componente detectado: "blocks.faq"
+[01:40:47.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:47.416] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:40:47.416] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:40:47.416] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301227714} /_vercel/insights/view
+[01:40:47.416] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:40:52.257] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772301227717-2682378843888","route":"/","type":"FCP","value":650},{"href":"http://localhost:3000/#comprar","id":"v3-1772301227717-2319376545741","route":"/","type":"TTFB","value":162},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772301227717-9455117579591","route":"/","type":"LCP","value":743}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:43:07.306] Browser ERROR   ./services/strapi.ts:23:35
+Parsing ecmascript source code failed
+  21 |             populate: '*' 
+  22 |           },
+> 23 |           'blocks.compra-asistida'{
+     |                                   ^
+  24 |             populate: '*'
+  25 |           }
+  26 |         },
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./services/strapi.ts
+    ./app/page.tsx
+[01:43:14.671] Server  LOG     ✓ Compiled in 112ms
+[01:43:14.798] Server  LOG     Componente detectado: "blocks.hero"
+[01:43:14.798] Server  LOG     Componente detectado: "blocks.about-us"
+[01:43:14.799] Server  LOG     Componente detectado: "blocks.faq"
+[01:43:14.799] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:43:50.077] Server  LOG     Componente detectado: "blocks.hero"
+[01:43:50.078] Server  LOG     Componente detectado: "blocks.about-us"
+[01:43:50.079] Server  LOG     Componente detectado: "blocks.faq"
+[01:43:50.080] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:44:56.257] Server  LOG     ✓ Compiled in 39ms
+[01:44:56.369] Server  LOG     Componente detectado: "blocks.hero"
+[01:44:56.370] Server  LOG     Componente detectado: "blocks.about-us"
+[01:44:56.371] Server  LOG     Componente detectado: "blocks.faq"
+[01:44:56.371] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:45:14.803] Server  LOG     Componente detectado: "blocks.hero"
+[01:45:14.804] Server  LOG     Componente detectado: "blocks.about-us"
+[01:45:14.805] Server  LOG     Componente detectado: "blocks.faq"
+[01:45:14.805] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:45:15.373] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:15.793] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:15.793] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:45:15.794] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301496094} /_vercel/insights/view
+[01:45:15.794] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:20.764] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772301496094-1483102630932","route":"/","type":"FCP","value":630},{"href":"http://localhost:3000/#comprar","id":"v3-1772301496094-5585460855815","route":"/","type":"TTFB","value":245},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772301496094-1810293913312","route":"/","type":"LCP","value":666}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:45:27.043] Server  LOG     Componente detectado: "blocks.hero"
+[01:45:27.045] Server  LOG     Componente detectado: "blocks.about-us"
+[01:45:27.045] Server  LOG     Componente detectado: "blocks.faq"
+[01:45:27.046] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:45:27.431] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:27.602] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:27.602] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:27.602] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:45:27.602] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301507902} /_vercel/insights/view
+[01:45:29.576] Server  LOG     Componente detectado: "blocks.hero"
+[01:45:29.578] Server  LOG     Componente detectado: "blocks.about-us"
+[01:45:29.578] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:45:29.579] Server  LOG     Componente detectado: "blocks.faq"
+[01:45:30.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:30.450] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:30.451] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:45:30.451] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301510737} /_vercel/insights/view
+[01:45:30.451] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:45:47.620] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772301510752-4507051176329","route":"/","type":"FCP","value":418},{"href":"http://localhost:3000/#comprar","id":"v3-1772301510752-9335621188147","route":"/","type":"TTFB","value":102},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772301510752-7573546066751","route":"/","type":"LCP","value":462}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[01:49:33.652] Server  LOG     Componente detectado: "blocks.hero"
+[01:49:33.653] Server  LOG     Componente detectado: "blocks.about-us"
+[01:49:33.653] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:49:33.653] Server  LOG     Componente detectado: "blocks.faq"
+[01:49:33.664] Server  LOG     ✓ Compiled in 555ms
+[01:50:03.117] Server  LOG     ✓ Compiled in 31ms
+[01:50:03.203] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:03.203] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:03.204] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:03.204] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:16.671] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:16.671] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:16.671] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:16.672] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:20.463] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:20.463] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:20.464] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:20.464] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:20.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:21.339] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:21.339] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:21.339] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:50:21.339] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301801639} /_vercel/insights/view
+[01:50:28.267] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:28.268] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:28.269] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:28.269] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:30.985] Server  LOG     ✓ Compiled in 30ms
+[01:50:31.308] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:31.309] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:31.310] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:31.310] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:33.599] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:33.600] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:33.600] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:33.600] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:34.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:34.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:34.488] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:50:34.488] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301814782} /_vercel/insights/view
+[01:50:34.488] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:42.654] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:42.654] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:42.655] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:42.655] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:51.825] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:51.825] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:51.826] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:51.826] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:54.688] Server  LOG     Componente detectado: "blocks.hero"
+[01:50:54.689] Server  LOG     Componente detectado: "blocks.about-us"
+[01:50:54.689] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:50:54.690] Server  LOG     Componente detectado: "blocks.faq"
+[01:50:55.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:55.691] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:55.691] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:55.691] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:50:55.691] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772301835984} /_vercel/insights/view
+[01:51:09.319] Server  LOG     Componente detectado: "blocks.hero"
+[01:51:09.320] Server  LOG     Componente detectado: "blocks.about-us"
+[01:51:09.321] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:51:09.321] Server  LOG     Componente detectado: "blocks.faq"
+[01:51:15.280] Server  LOG     Componente detectado: "blocks.hero"
+[01:51:15.280] Server  LOG     Componente detectado: "blocks.about-us"
+[01:51:15.281] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[01:51:15.281] Server  LOG     Componente detectado: "blocks.faq"
+[01:51:23.007] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772301835982-6649973899707","route":"/","type":"FCP","value":580},{"href":"http://localhost:3000/#comprar","id":"v3-1772301835982-2126035590757","route":"/","type":"TTFB","value":199},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772301835982-8945733727264","route":"/","type":"LCP","value":731}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[02:43:12.390] Server  LOG     Componente detectado: "blocks.hero"
+[02:43:12.390] Server  LOG     Componente detectado: "blocks.about-us"
+[02:43:12.391] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:43:12.391] Server  LOG     Componente detectado: "blocks.faq"
+[02:44:04.552] Server  LOG     ✓ Compiled in 30ms
+[02:44:04.690] Server  LOG     Componente detectado: "blocks.hero"
+[02:44:04.691] Server  LOG     Componente detectado: "blocks.about-us"
+[02:44:04.692] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:44:04.692] Server  LOG     Componente detectado: "blocks.faq"
+[02:46:02.022] Server  LOG     ✓ Compiled in 36ms
+[02:46:02.145] Server  LOG     Componente detectado: "blocks.hero"
+[02:46:02.145] Server  LOG     Componente detectado: "blocks.about-us"
+[02:46:02.145] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:46:02.146] Server  LOG     Componente detectado: "blocks.faq"
+[02:46:10.101] Server  LOG     Componente detectado: "blocks.hero"
+[02:46:10.103] Server  LOG     Componente detectado: "blocks.about-us"
+[02:46:10.104] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:46:10.104] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:11.293] Server  LOG     ✓ Compiled in 31ms
+[02:47:11.410] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:11.410] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:11.410] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:11.411] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:16.044] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:16.044] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:16.046] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:16.046] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:34.583] Server  LOG     ✓ Compiled in 35ms
+[02:47:34.694] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:34.694] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:34.695] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:34.695] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:43.038] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:43.038] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:43.039] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:43.039] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:47.273] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:47.274] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:47.274] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:47.275] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:48.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:48.642] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:47:48.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:47:48.642] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772305248940} /_vercel/insights/view
+[02:47:48.642] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:47:49.581] Server  LOG     Componente detectado: "blocks.hero"
+[02:47:49.581] Server  LOG     Componente detectado: "blocks.about-us"
+[02:47:49.582] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:47:49.583] Server  LOG     Componente detectado: "blocks.faq"
+[02:47:50.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:50.482] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:47:50.482] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:47:50.482] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772305250783} /_vercel/insights/view
+[02:47:50.482] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:48:04.917] Server  LOG     ✓ Compiled in 130ms
+[02:48:05.009] Server  LOG     Componente detectado: "blocks.hero"
+[02:48:05.014] Server  LOG     Componente detectado: "blocks.about-us"
+[02:48:05.016] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:48:05.017] Server  LOG     Componente detectado: "blocks.faq"
+[02:48:34.442] Server  LOG     ✓ Compiled in 46ms
+[02:48:34.527] Server  LOG     Componente detectado: "blocks.hero"
+[02:48:34.527] Server  LOG     Componente detectado: "blocks.about-us"
+[02:48:34.528] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:48:34.528] Server  LOG     Componente detectado: "blocks.faq"
+[02:48:39.053] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772305250784-1820591967837","route":"/","type":"FCP","value":469},{"href":"http://localhost:3000/#comprar","id":"v3-1772305250784-6400288659711","route":"/","type":"TTFB","value":91},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772305250784-8714382967438","route":"/","type":"LCP","value":485}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[02:49:25.699] Server  LOG     Componente detectado: "blocks.hero"
+[02:49:25.700] Server  LOG     Componente detectado: "blocks.about-us"
+[02:49:25.700] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:49:25.701] Server  LOG     Componente detectado: "blocks.faq"
+[02:50:14.290] Server  LOG     Componente detectado: "blocks.hero"
+[02:50:14.291] Server  LOG     Componente detectado: "blocks.about-us"
+[02:50:14.291] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:50:14.291] Server  LOG     Componente detectado: "blocks.faq"
+[02:50:29.874] Server  LOG     ✓ Compiled in 57ms
+[02:50:30.004] Server  LOG     Componente detectado: "blocks.hero"
+[02:50:30.004] Server  LOG     Componente detectado: "blocks.about-us"
+[02:50:30.005] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:50:30.005] Server  LOG     Componente detectado: "blocks.faq"
+[02:50:47.355] Server  LOG     Componente detectado: "blocks.hero"
+[02:50:47.355] Server  LOG     Componente detectado: "blocks.about-us"
+[02:50:47.356] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:50:47.359] Server  LOG     Componente detectado: "blocks.faq"
+[02:52:49.638] Server  LOG     Componente detectado: "blocks.hero"
+[02:52:49.638] Server  LOG     Componente detectado: "blocks.about-us"
+[02:52:49.639] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:52:49.639] Server  LOG     Componente detectado: "blocks.faq"
+[02:57:24.341] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"main>div.flex.flex-col.gap-0>section.container.mx-auto.py-20.px-6","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772305250784-3480866427765","route":"/","type":"INP","value":24}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[02:58:08.669] Server  LOG     ✓ Compiled in 30ms
+[02:58:08.746] Server  LOG     Componente detectado: "blocks.hero"
+[02:58:08.747] Server  LOG     Componente detectado: "blocks.about-us"
+[02:58:08.747] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:58:08.748] Server  LOG     Componente detectado: "blocks.faq"
+[02:58:17.765] Server  LOG     Componente detectado: "blocks.hero"
+[02:58:17.766] Server  LOG     Componente detectado: "blocks.about-us"
+[02:58:17.766] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:58:17.766] Server  LOG     Componente detectado: "blocks.faq"
+[02:58:49.199] Server  LOG     ✓ Compiled in 29ms
+[02:58:49.292] Server  LOG     Componente detectado: "blocks.hero"
+[02:58:49.293] Server  LOG     Componente detectado: "blocks.about-us"
+[02:58:49.293] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:58:49.294] Server  LOG     Componente detectado: "blocks.faq"
+[02:58:53.490] Server  LOG     Componente detectado: "blocks.hero"
+[02:58:53.490] Server  LOG     Componente detectado: "blocks.about-us"
+[02:58:53.491] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:58:53.491] Server  LOG     Componente detectado: "blocks.faq"
+[02:58:54.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:58:55.536] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:58:55.536] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:58:55.536] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772305915717} /_vercel/insights/view
+[02:58:55.536] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:59:15.902] Server  LOG     Componente detectado: "blocks.hero"
+[02:59:15.903] Server  LOG     Componente detectado: "blocks.about-us"
+[02:59:15.903] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:59:15.903] Server  LOG     Componente detectado: "blocks.faq"
+[02:59:21.385] Server  LOG     Componente detectado: "blocks.hero"
+[02:59:21.385] Server  LOG     Componente detectado: "blocks.about-us"
+[02:59:21.385] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:59:21.386] Server  LOG     Componente detectado: "blocks.faq"
+[02:59:25.294] Server  LOG     Componente detectado: "blocks.hero"
+[02:59:25.298] Server  LOG     Componente detectado: "blocks.about-us"
+[02:59:25.298] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:59:25.299] Server  LOG     Componente detectado: "blocks.faq"
+[02:59:32.863] Server  LOG     Componente detectado: "blocks.hero"
+[02:59:32.864] Server  LOG     Componente detectado: "blocks.about-us"
+[02:59:32.865] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[02:59:32.865] Server  LOG     Componente detectado: "blocks.faq"
+[03:00:13.421] Server  LOG     ✓ Compiled in 34ms
+[03:00:13.501] Server  LOG     Componente detectado: "blocks.hero"
+[03:00:13.501] Server  LOG     Componente detectado: "blocks.about-us"
+[03:00:13.502] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:00:13.502] Server  LOG     Componente detectado: "blocks.faq"
+[03:00:17.355] Server  LOG     Componente detectado: "blocks.hero"
+[03:00:17.356] Server  LOG     Componente detectado: "blocks.about-us"
+[03:00:17.356] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:00:17.357] Server  LOG     Componente detectado: "blocks.faq"
+[03:00:33.992] Server  LOG     Componente detectado: "blocks.hero"
+[03:00:33.993] Server  LOG     Componente detectado: "blocks.about-us"
+[03:00:33.993] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:00:33.995] Server  LOG     Componente detectado: "blocks.faq"
+[03:00:39.409] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772305915777-5597747558559","route":"/","type":"FCP","value":764},{"href":"http://localhost:3000/#comprar","id":"v3-1772305915777-7302155445110","route":"/","type":"TTFB","value":208},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772305915777-3821321959424","route":"/","type":"LCP","value":888}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[03:01:07.475] Server  LOG     ✓ Compiled in 19ms
+[03:01:07.592] Server  LOG     Componente detectado: "blocks.hero"
+[03:01:07.593] Server  LOG     Componente detectado: "blocks.about-us"
+[03:01:07.593] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:01:07.594] Server  LOG     Componente detectado: "blocks.faq"
+[03:01:43.262] Server  LOG     Componente detectado: "blocks.hero"
+[03:01:43.263] Server  LOG     Componente detectado: "blocks.about-us"
+[03:01:43.264] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:01:43.264] Server  LOG     Componente detectado: "blocks.faq"
+[03:01:54.613] Server  LOG     Componente detectado: "blocks.hero"
+[03:01:54.613] Server  LOG     Componente detectado: "blocks.about-us"
+[03:01:54.614] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:01:54.614] Server  LOG     Componente detectado: "blocks.faq"
+[03:02:02.131] Server  LOG     ✓ Compiled in 20ms
+[03:02:02.226] Server  LOG     Componente detectado: "blocks.hero"
+[03:02:02.226] Server  LOG     Componente detectado: "blocks.about-us"
+[03:02:02.227] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:02:02.228] Server  LOG     Componente detectado: "blocks.faq"
+[03:02:48.651] Server  LOG     Componente detectado: "blocks.hero"
+[03:02:48.652] Server  LOG     Componente detectado: "blocks.about-us"
+[03:02:48.652] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:02:48.652] Server  LOG     Componente detectado: "blocks.faq"
+[03:02:48.703] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[03:02:48.844] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[03:03:05.570] Server  LOG     ✓ Compiled in 68ms
+[03:03:05.685] Server  LOG     Componente detectado: "blocks.hero"
+[03:03:05.686] Server  LOG     Componente detectado: "blocks.about-us"
+[03:03:05.686] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:03:05.686] Server  LOG     Componente detectado: "blocks.faq"
+[03:03:06.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:03:06.519] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:03:06.519] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:03:06.519] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:03:06.519] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772306166819} /_vercel/insights/view
+[03:05:32.315] Server  LOG     ✓ Compiled in 33ms
+[03:05:32.402] Server  LOG     Componente detectado: "blocks.hero"
+[03:05:32.402] Server  LOG     Componente detectado: "blocks.about-us"
+[03:05:32.403] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:05:32.403] Server  LOG     Componente detectado: "blocks.faq"
+[03:05:46.621] Server  LOG     Componente detectado: "blocks.hero"
+[03:05:46.622] Server  LOG     Componente detectado: "blocks.about-us"
+[03:05:46.623] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:05:46.623] Server  LOG     Componente detectado: "blocks.faq"
+[03:05:46.635] Server  LOG     ✓ Compiled in 90ms
+[03:05:53.040] Server  LOG     Componente detectado: "blocks.hero"
+[03:05:53.042] Server  LOG     Componente detectado: "blocks.about-us"
+[03:05:53.043] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:05:53.043] Server  LOG     Componente detectado: "blocks.faq"
+[03:06:00.756] Server  LOG     Componente detectado: "blocks.hero"
+[03:06:00.757] Server  LOG     Componente detectado: "blocks.about-us"
+[03:06:00.757] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:06:00.758] Server  LOG     Componente detectado: "blocks.faq"
+[03:06:13.040] Server  LOG     Componente detectado: "blocks.hero"
+[03:06:13.040] Server  LOG     Componente detectado: "blocks.about-us"
+[03:06:13.041] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:06:13.041] Server  LOG     Componente detectado: "blocks.faq"
+[03:06:54.275] Server  LOG     ✓ Compiled in 41ms
+[03:06:54.414] Server  LOG     Componente detectado: "blocks.hero"
+[03:06:54.414] Server  LOG     Componente detectado: "blocks.about-us"
+[03:06:54.414] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:06:54.415] Server  LOG     Componente detectado: "blocks.faq"
+[03:06:59.563] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772306166817-8898012835343","route":"/","type":"FCP","value":569},{"href":"http://localhost:3000/#comprar","id":"v3-1772306166817-9609492496103","route":"/","type":"TTFB","value":340},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772306166817-6612806854781","route":"/","type":"LCP","value":788},{"attribution":{"eventTarget":"div.bg-[#0c111cb3].border.border-[#135bec].rounded-3xl.p-7.text-center>div","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772306166817-6739703451255","route":"/","type":"FID","value":14},{"attribution":{"eventTarget":"div.bg-[#0c111cb3].border.border-[#135bec].rounded-3xl.p-7.text-center>div","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772306166817-4039581250322","route":"/","type":"INP","value":16}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[03:08:54.658] Server  LOG     Componente detectado: "blocks.hero"
+[03:08:54.660] Server  LOG     Componente detectado: "blocks.about-us"
+[03:08:54.660] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:08:54.661] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:02.249] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:02.249] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:02.249] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:02.250] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:02.261] Server  LOG     ✓ Compiled in 88ms
+[03:09:08.396] Server  LOG     ✓ Compiled in 62ms
+[03:09:08.627] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:08.627] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:08.627] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:08.628] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:12.982] Server  LOG     ✓ Compiled in 131ms
+[03:09:13.084] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:13.084] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:13.085] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:13.085] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:17.305] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:17.308] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:17.309] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:17.310] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:32.505] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:32.505] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:32.505] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:32.506] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:38.349] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:38.349] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:38.350] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:38.350] Server  LOG     Componente detectado: "blocks.faq"
+[03:09:44.135] Server  LOG     Componente detectado: "blocks.hero"
+[03:09:44.135] Server  LOG     Componente detectado: "blocks.about-us"
+[03:09:44.135] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:09:44.136] Server  LOG     Componente detectado: "blocks.faq"
+[03:11:40.149] Server  LOG     Componente detectado: "blocks.hero"
+[03:11:40.149] Server  LOG     Componente detectado: "blocks.about-us"
+[03:11:40.150] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:11:40.150] Server  LOG     Componente detectado: "blocks.faq"
+[03:11:48.439] Server  LOG     Componente detectado: "blocks.hero"
+[03:11:48.439] Server  LOG     Componente detectado: "blocks.about-us"
+[03:11:48.439] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:11:48.440] Server  LOG     Componente detectado: "blocks.faq"
+[03:11:56.134] Server  LOG     Componente detectado: "blocks.hero"
+[03:11:56.135] Server  LOG     Componente detectado: "blocks.about-us"
+[03:11:56.135] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:11:56.135] Server  LOG     Componente detectado: "blocks.faq"
+[03:12:01.768] Server  LOG     Componente detectado: "blocks.hero"
+[03:12:01.768] Server  LOG     Componente detectado: "blocks.about-us"
+[03:12:01.769] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:12:01.769] Server  LOG     Componente detectado: "blocks.faq"
+[03:12:16.510] Server  LOG     Componente detectado: "blocks.hero"
+[03:12:16.510] Server  LOG     Componente detectado: "blocks.about-us"
+[03:12:16.511] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:12:16.512] Server  LOG     Componente detectado: "blocks.faq"
+[03:13:29.644] Server  LOG     ✓ Compiled in 34ms
+[03:13:29.727] Server  LOG     Componente detectado: "blocks.hero"
+[03:13:29.728] Server  LOG     Componente detectado: "blocks.about-us"
+[03:13:29.728] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:13:29.729] Server  LOG     Componente detectado: "blocks.faq"
+[03:14:09.063] Server  LOG     Componente detectado: "blocks.hero"
+[03:14:09.064] Server  LOG     Componente detectado: "blocks.about-us"
+[03:14:09.064] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:14:09.065] Server  LOG     Componente detectado: "blocks.faq"
+[03:14:37.050] Server  LOG     ✓ Compiled in 85ms
+[03:14:37.497] Server  LOG     Componente detectado: "blocks.hero"
+[03:14:37.497] Server  LOG     Componente detectado: "blocks.about-us"
+[03:14:37.498] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:14:37.498] Server  LOG     Componente detectado: "blocks.faq"
+[03:15:16.701] Server  LOG     ✓ Compiled in 207ms
+[03:15:17.086] Server  LOG     Componente detectado: "blocks.hero"
+[03:15:17.088] Server  LOG     Componente detectado: "blocks.about-us"
+[03:15:17.089] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:15:17.137] Server  LOG     Componente detectado: "blocks.faq"
+[03:15:40.887] Server  LOG     Componente detectado: "blocks.hero"
+[03:15:40.888] Server  LOG     Componente detectado: "blocks.about-us"
+[03:15:40.888] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:15:40.889] Server  LOG     Componente detectado: "blocks.faq"
+[03:15:54.176] Server  LOG     Componente detectado: "blocks.hero"
+[03:15:54.177] Server  LOG     Componente detectado: "blocks.about-us"
+[03:15:54.177] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:15:54.177] Server  LOG     Componente detectado: "blocks.faq"
+[03:16:06.402] Server  LOG     Componente detectado: "blocks.hero"
+[03:16:06.402] Server  LOG     Componente detectado: "blocks.about-us"
+[03:16:06.403] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:16:06.403] Server  LOG     Componente detectado: "blocks.faq"
+[03:16:11.810] Server  LOG     ✓ Compiled in 23ms
+[03:16:12.099] Server  LOG     Componente detectado: "blocks.hero"
+[03:16:12.100] Server  LOG     Componente detectado: "blocks.about-us"
+[03:16:12.100] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:16:12.101] Server  LOG     Componente detectado: "blocks.faq"
+[03:16:17.537] Server  LOG     Componente detectado: "blocks.hero"
+[03:16:17.537] Server  LOG     Componente detectado: "blocks.about-us"
+[03:16:17.537] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:16:17.538] Server  LOG     Componente detectado: "blocks.faq"
+[03:16:22.675] Server  LOG     Componente detectado: "blocks.hero"
+[03:16:22.676] Server  LOG     Componente detectado: "blocks.about-us"
+[03:16:22.676] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:16:22.676] Server  LOG     Componente detectado: "blocks.faq"
+[03:17:18.211] Server  LOG     ✓ Compiled in 229ms
+[03:17:18.306] Server  LOG     Componente detectado: "blocks.hero"
+[03:17:18.306] Server  LOG     Componente detectado: "blocks.about-us"
+[03:17:18.306] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:17:18.307] Server  LOG     Componente detectado: "blocks.faq"
+[03:17:49.916] Server  LOG     Componente detectado: "blocks.hero"
+[03:17:49.917] Server  LOG     Componente detectado: "blocks.about-us"
+[03:17:49.917] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:17:49.917] Server  LOG     Componente detectado: "blocks.faq"
+[03:17:57.165] Server  LOG     ✓ Compiled in 28ms
+[03:17:57.266] Server  LOG     Componente detectado: "blocks.hero"
+[03:17:57.267] Server  LOG     Componente detectado: "blocks.about-us"
+[03:17:57.268] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:17:57.270] Server  LOG     Componente detectado: "blocks.faq"
+[03:18:37.050] Server  LOG     ✓ Compiled in 38ms
+[03:18:37.131] Server  LOG     Componente detectado: "blocks.hero"
+[03:18:37.131] Server  LOG     Componente detectado: "blocks.about-us"
+[03:18:37.132] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:18:37.132] Server  LOG     Componente detectado: "blocks.faq"
+[03:18:43.715] Server  LOG     Componente detectado: "blocks.hero"
+[03:18:43.715] Server  LOG     Componente detectado: "blocks.about-us"
+[03:18:43.715] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:18:43.716] Server  LOG     Componente detectado: "blocks.faq"
+[03:18:51.252] Server  LOG     Componente detectado: "blocks.hero"
+[03:18:51.252] Server  LOG     Componente detectado: "blocks.about-us"
+[03:18:51.253] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:18:51.253] Server  LOG     Componente detectado: "blocks.faq"
+[03:19:49.707] Server  LOG     Componente detectado: "blocks.hero"
+[03:19:49.707] Server  LOG     Componente detectado: "blocks.about-us"
+[03:19:49.708] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:19:49.708] Server  LOG     Componente detectado: "blocks.faq"
+[03:19:52.054] Server  LOG     Componente detectado: "blocks.hero"
+[03:19:52.055] Server  LOG     Componente detectado: "blocks.about-us"
+[03:19:52.055] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:19:52.055] Server  LOG     Componente detectado: "blocks.faq"
+[03:19:52.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:53.528] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:19:53.528] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:19:53.528] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772307173793} /_vercel/insights/view
+[03:19:53.528] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:22:37.494] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:37.494] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:37.495] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:37.496] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:37.858] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:37.858] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:37.859] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:37.859] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:37.981] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772307173798-5594216608562","route":"/","type":"FCP","value":621},{"href":"http://localhost:3000/#comprar","id":"v3-1772307173798-8012096778233","route":"/","type":"TTFB","value":196},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772307173798-1522296790598","route":"/","type":"LCP","value":639},{"attribution":{"eventTarget":"a.flex.min-w-[180px].cursor-pointer.items-center.justify-center.rounded-xl.h-14.px-8.bg-[#135bec].text-white.text-base.font-bold.transition-all.hover:scale-105.glow-primary","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772307173798-8362785765889","route":"/","type":"FID","value":7}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[03:22:38.223] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:38.223] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:38.225] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:38.226] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:38.465] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:38.465] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:38.466] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:38.467] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:38.711] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:38.712] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:38.713] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:38.714] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:38.887] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:38.888] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:38.890] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:38.891] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:39.096] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:39.097] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:39.097] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:39.098] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:39.292] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:39.294] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:39.295] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:39.296] Server  LOG     Componente detectado: "blocks.faq"
+[03:22:39.553] Server  LOG     Componente detectado: "blocks.hero"
+[03:22:39.553] Server  LOG     Componente detectado: "blocks.about-us"
+[03:22:39.554] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:22:39.554] Server  LOG     Componente detectado: "blocks.faq"
+[03:23:05.323] Server  LOG     Componente detectado: "blocks.hero"
+[03:23:05.323] Server  LOG     Componente detectado: "blocks.about-us"
+[03:23:05.324] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:23:05.324] Server  LOG     Componente detectado: "blocks.faq"
+[03:23:11.347] Server  LOG     ✓ Compiled in 51ms
+[03:23:11.432] Server  LOG     Componente detectado: "blocks.hero"
+[03:23:11.433] Server  LOG     Componente detectado: "blocks.about-us"
+[03:23:11.433] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:23:11.433] Server  LOG     Componente detectado: "blocks.faq"
+[03:23:17.505] Server  LOG     Componente detectado: "blocks.hero"
+[03:23:17.506] Server  LOG     Componente detectado: "blocks.about-us"
+[03:23:17.506] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:23:17.507] Server  LOG     Componente detectado: "blocks.faq"
+[03:23:22.496] Server  LOG     ✓ Compiled in 84ms
+[03:23:22.595] Server  LOG     Componente detectado: "blocks.hero"
+[03:23:22.596] Server  LOG     Componente detectado: "blocks.about-us"
+[03:23:22.596] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:23:22.596] Server  LOG     Componente detectado: "blocks.faq"
+[03:23:40.304] Server  LOG     Componente detectado: "blocks.hero"
+[03:23:40.304] Server  LOG     Componente detectado: "blocks.about-us"
+[03:23:40.305] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:23:40.305] Server  LOG     Componente detectado: "blocks.faq"
+[03:24:02.159] Server  LOG     Componente detectado: "blocks.hero"
+[03:24:02.160] Server  LOG     Componente detectado: "blocks.about-us"
+[03:24:02.160] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:24:02.160] Server  LOG     Componente detectado: "blocks.faq"
+[03:24:04.796] Server  LOG     Componente detectado: "blocks.hero"
+[03:24:04.797] Server  LOG     Componente detectado: "blocks.about-us"
+[03:24:04.797] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:24:04.798] Server  LOG     Componente detectado: "blocks.faq"
+[03:24:05.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:06.363] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:24:06.363] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:24:06.363] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:24:06.363] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772307426662} /_vercel/insights/view
+[03:24:29.134] Server  LOG     ✓ Compiled in 34ms
+[03:24:29.228] Server  LOG     Componente detectado: "blocks.hero"
+[03:24:29.229] Server  LOG     Componente detectado: "blocks.about-us"
+[03:24:29.229] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:24:29.229] Server  LOG     Componente detectado: "blocks.faq"
+[03:24:31.535] Server  LOG     Componente detectado: "blocks.hero"
+[03:24:31.535] Server  LOG     Componente detectado: "blocks.about-us"
+[03:24:31.535] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:24:31.536] Server  LOG     Componente detectado: "blocks.faq"
+[03:24:32.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:32.804] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:24:32.804] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:24:32.804] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772307453092} /_vercel/insights/view
+[03:24:32.804] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:26:11.274] Server  LOG     ✓ Compiled in 40ms
+[03:26:11.608] Server  LOG     Componente detectado: "blocks.hero"
+[03:26:11.608] Server  LOG     Componente detectado: "blocks.about-us"
+[03:26:11.609] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:26:11.610] Server  LOG     Componente detectado: "blocks.faq"
+[03:26:14.105] Server  LOG     Componente detectado: "blocks.hero"
+[03:26:14.106] Server  LOG     Componente detectado: "blocks.about-us"
+[03:26:14.107] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:26:14.107] Server  LOG     Componente detectado: "blocks.faq"
+[03:26:14.882] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:26:15.464] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:26:15.464] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:26:15.464] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772307555762} /_vercel/insights/view
+[03:26:15.464] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:26:23.483] Server  LOG     Componente detectado: "blocks.hero"
+[03:26:23.495] Server  LOG     Componente detectado: "blocks.about-us"
+[03:26:23.499] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:26:23.505] Server  LOG     Componente detectado: "blocks.faq"
+[03:26:43.301] Server  LOG     ✓ Compiled in 88ms
+[03:26:43.455] Server  LOG     Componente detectado: "blocks.hero"
+[03:26:43.458] Server  LOG     Componente detectado: "blocks.about-us"
+[03:26:43.458] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:26:43.458] Server  LOG     Componente detectado: "blocks.faq"
+[03:26:52.976] Server  LOG     Componente detectado: "blocks.hero"
+[03:26:52.977] Server  LOG     Componente detectado: "blocks.about-us"
+[03:26:52.977] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:26:52.978] Server  LOG     Componente detectado: "blocks.faq"
+[03:27:04.235] Server  LOG     ✓ Compiled in 45ms
+[03:27:04.448] Server  LOG     Componente detectado: "blocks.hero"
+[03:27:04.448] Server  LOG     Componente detectado: "blocks.about-us"
+[03:27:04.448] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:27:04.448] Server  LOG     Componente detectado: "blocks.faq"
+[03:27:06.804] Server  LOG     Componente detectado: "blocks.hero"
+[03:27:06.805] Server  LOG     Componente detectado: "blocks.about-us"
+[03:27:06.805] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:27:06.806] Server  LOG     Componente detectado: "blocks.faq"
+[03:27:07.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:27:08.135] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:27:08.135] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:27:08.135] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772307608399} /_vercel/insights/view
+[03:27:08.135] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:27:19.932] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772307608421-4166437003121","route":"/","type":"FCP","value":588},{"href":"http://localhost:3000/#comprar","id":"v3-1772307608421-1819271086589","route":"/","type":"TTFB","value":180},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772307608421-5963180542082","route":"/","type":"LCP","value":603}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[03:30:36.062] Server  LOG     ✓ Compiled in 66ms
+[03:30:36.204] Server  LOG     Componente detectado: "blocks.hero"
+[03:30:36.205] Server  LOG     Componente detectado: "blocks.about-us"
+[03:30:36.206] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:30:36.206] Server  LOG     Componente detectado: "blocks.faq"
+[03:34:15.419] Server  LOG     Componente detectado: "blocks.hero"
+[03:34:15.420] Server  LOG     Componente detectado: "blocks.about-us"
+[03:34:15.420] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:34:15.421] Server  LOG     Componente detectado: "blocks.faq"
+[03:36:57.845] Server  LOG     Componente detectado: "blocks.hero"
+[03:36:57.845] Server  LOG     Componente detectado: "blocks.about-us"
+[03:36:57.845] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:36:57.846] Server  LOG     Componente detectado: "blocks.faq"
+[03:36:58.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:36:59.300] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:36:59.300] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:36:59.300] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:36:59.300] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772308199595} /_vercel/insights/view
+[03:37:29.550] Server  LOG     ✓ Compiled in 35ms
+[03:37:29.645] Server  LOG     Componente detectado: "blocks.hero"
+[03:37:29.645] Server  LOG     Componente detectado: "blocks.about-us"
+[03:37:29.645] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:37:29.646] Server  LOG     Componente detectado: "blocks.faq"
+[03:37:45.980] Server  LOG     ✓ Compiled in 72ms
+[03:37:46.123] Server  LOG     Componente detectado: "blocks.hero"
+[03:37:46.124] Server  LOG     Componente detectado: "blocks.about-us"
+[03:37:46.125] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:37:46.126] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:17.853] Server  LOG     ✓ Compiled in 33ms
+[03:38:17.981] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:17.981] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:17.982] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:17.982] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:22.235] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:22.236] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:22.236] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:22.237] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:22.807] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:38:23.435] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:38:23.435] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:38:23.435] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772308283723} /_vercel/insights/view
+[03:38:23.435] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:38:29.274] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:29.281] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:29.327] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:29.345] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:36.138] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:36.138] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:36.139] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:36.139] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:52.143] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:52.144] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:52.144] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:52.145] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:52.789] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:52.790] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:52.790] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:52.791] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:52.976] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:52.977] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:52.977] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:52.978] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:53.015] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:53.016] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:53.016] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:53.017] Server  LOG     Componente detectado: "blocks.faq"
+[03:38:53.927] Server  LOG     Componente detectado: "blocks.hero"
+[03:38:53.928] Server  LOG     Componente detectado: "blocks.about-us"
+[03:38:53.928] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:38:53.929] Server  LOG     Componente detectado: "blocks.faq"
+[03:42:13.848] Server  LOG     Componente detectado: "blocks.hero"
+[03:42:13.848] Server  LOG     Componente detectado: "blocks.about-us"
+[03:42:13.849] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:42:13.849] Server  LOG     Componente detectado: "blocks.faq"
+[03:42:13.948] Server  ERROR   ⨯ ReferenceError: Link is not defined
+[03:42:14.364] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[03:42:17.137] Server  LOG     ✓ Compiled in 58ms
+[03:42:17.504] Server  LOG     Componente detectado: "blocks.hero"
+[03:42:17.507] Server  LOG     Componente detectado: "blocks.about-us"
+[03:42:17.515] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:42:17.517] Server  LOG     Componente detectado: "blocks.faq"
+[03:42:18.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:19.650] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:19.650] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:42:19.650] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#comprar color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#comprar","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772308519943} /_vercel/insights/view
+[03:42:19.650] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:27.992] Server  LOG       Reload env: .env
+[03:42:30.346] Server  LOG     Componente detectado: "blocks.hero"
+[03:42:30.346] Server  LOG     Componente detectado: "blocks.about-us"
+[03:42:30.347] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:42:30.347] Server  LOG     Componente detectado: "blocks.faq"
+[03:42:30.363] Server  LOG     ✓ Compiled in 2.2s
+[03:42:30.413] Server  LOG     Componente detectado: "blocks.hero"
+[03:42:30.413] Server  LOG     Componente detectado: "blocks.about-us"
+[03:42:30.414] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:42:30.414] Server  LOG     Componente detectado: "blocks.faq"
+[03:45:27.382] Server  LOG     ✓ Compiled in 39ms
+[03:45:27.478] Server  LOG     Componente detectado: "blocks.hero"
+[03:45:27.478] Server  LOG     Componente detectado: "blocks.about-us"
+[03:45:27.479] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:45:27.479] Server  LOG     Componente detectado: "blocks.faq"
+[03:45:35.500] Server  LOG     Componente detectado: "blocks.hero"
+[03:45:35.501] Server  LOG     Componente detectado: "blocks.about-us"
+[03:45:35.501] Server  LOG     Componente detectado: "blocks.compra-asistida"
+[03:45:35.501] Server  LOG     Componente detectado: "blocks.faq"
+[03:45:35.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:45:36.134] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:45:36.134] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:45:36.134] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:45:36.134] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772308716435} /_vercel/insights/view
+[03:45:36.803] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/#comprar","id":"v3-1772308519951-6103567969441","route":"/","type":"FCP","value":1190},{"href":"http://localhost:3000/#comprar","id":"v3-1772308519951-7478697419603","route":"/","type":"TTFB","value":733},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/#comprar","id":"v3-1772308519951-8268081788416","route":"/","type":"LCP","value":1648},{"attribution":{"eventTarget":"a.flex.w-50.gap-2.cursor-pointer.items-center.justify-center.rounded-2xl.h-12.px-2.bg-[#135bec].text-white.text-base.font-bold.transition-all.hover:scale-105.glow-primary","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772308519951-1539275084231","route":"/","type":"FID","value":18},{"attribution":{"eventTarget":"a.flex.w-50.gap-2.cursor-pointer.items-center.justify-center.rounded-2xl.h-12.px-2.bg-[#135bec].text-white.text-base.font-bold.transition-all.hover:scale-105.glow-primary","eventType":"pointerdown"},"href":"http://localhost:3000/#comprar","id":"v3-1772308519951-4677332309804","route":"/","type":"INP","value":24}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals
+[03:45:41.018] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/","id":"v3-1772308716434-1001876251973","route":"/","type":"FCP","value":376},{"href":"http://localhost:3000/","id":"v3-1772308716434-2953623549939","route":"/","type":"TTFB","value":179},{"attribution":{"eventTarget":"div.flex.min-h-[650px].flex-col.justify-center.bg-cover.bg-position-[80%_center].lg:bg-position-[right_center].bg-no-repeat.px-8.lg:px-20"},"href":"http://localhost:3000/","id":"v3-1772308716434-5775136075580","route":"/","type":"LCP","value":471}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":""} /_vercel/speed-insights/vitals

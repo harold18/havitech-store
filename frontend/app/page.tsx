@@ -3,13 +3,14 @@ import Image from "next/image";
 import { getHomePageData } from "@/services/strapi";
 import HeroSection from "@/components/herosection";
 import AboutusSection from "@/components/aboutussection";
+import CompraAsistida from "@/components/compra-asistida";
 import FaqSection from "@/components/faqsection";
 
 export default async function Home() {
   const strapiData = await getHomePageData();
 
   if (!strapiData) {
-    return <div className="p-10">No hay datos. Revisa Strapi.</div>;
+    return <div className="p-10">No hay datos o conexion con Strapi.</div>;
   }
 
   const { blocks } = strapiData;
@@ -35,7 +36,7 @@ export default async function Home() {
           // Ejemplo: "blocks.hero-section-3" vs "blocks.faq-3"
           const uniqueKey = `${block.__component}-${index}`;
 
-          // console.log("Componente detectado:", block.__component);
+           console.log("Componente detectado:", block.__component);
 
           switch (block.__component) {
             // CASO 1: Hero Section (Nueva categoría 'blocks')
@@ -43,6 +44,8 @@ export default async function Home() {
               return <HeroSection key={uniqueKey} data={block} />;
             case "blocks.about-us":
               return <AboutusSection key={uniqueKey} data={block} />;
+            case "blocks.compra-asistida":
+              return <CompraAsistida key={uniqueKey} data={block} />;
             case "blocks.faq":
               return <FaqSection key={uniqueKey} data={block} />;
 

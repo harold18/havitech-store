@@ -35,9 +35,9 @@ export default function AboutusSection({ data }: AboutProps) {
         <div className="about-wrapper w-full flex flex-col md:flex-row gap-8 md:gap-12">
           <div className="w-full md:w-1/2 flex flex-col flex-wrap justify-center">
             <div className="wrapper-title flex flex-col justify-center items-center md:justify-start md:items-start text-center md:text-left">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
                 {data.title}
-              </h1>
+              </h2>
               <p className="text-gray-400 mb-8 max-w-md">
                 {data.descrip}
               </p>
