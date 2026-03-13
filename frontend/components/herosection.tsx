@@ -7,7 +7,6 @@ import { getImageUrl } from "@/services/strapi-image";
 interface HeroProps {
   data: {
     id: number;
-    // NOMBRES NUEVOS basados en tu captura:
     hero_title: string;
     hero_descrip: string;
     hero_cta_descrip: string;

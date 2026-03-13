@@ -17,7 +17,8 @@
         "blocks.hero",
         "blocks.faq",
         "blocks.about-us",
-        "blocks.compra-asistida"
+        "blocks.compra-asistida",
+        "blocks.catalogo"
       ]
     }
   }
