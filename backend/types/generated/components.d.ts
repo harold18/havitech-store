@@ -19,6 +19,18 @@ export interface BlocksAboutUs extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksCatalogo extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_catalogos';
+  info: {
+    displayName: 'catalogo-hero';
+    icon: 'heart';
+  };
+  attributes: {
+    descrip: Schema.Attribute.Text;
+    titulo: Schema.Attribute.String;
+  };
+}
+
 export interface BlocksCompraAsistida extends Struct.ComponentSchema {
   collectionName: 'components_blocks_compra_asistidas';
   info: {
@@ -63,6 +75,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'blocks.about-us': BlocksAboutUs;
+      'blocks.catalogo': BlocksCatalogo;
       'blocks.compra-asistida': BlocksCompraAsistida;
       'blocks.faq': BlocksFaq;
       'blocks.hero': BlocksHero;

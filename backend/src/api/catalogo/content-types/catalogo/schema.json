@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogos",
+  "info": {
+    "singularName": "catalogo",
+    "pluralName": "catalogos",
+    "displayName": "catalogo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelo": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "enumeration",
+      "default": "Excelente",
+      "enum": [
+        "Nuevo",
+        "Excelente",
+        "Buen estado",
+        "Aceptable"
+      ]
+    },
+    "fotos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "descrip": {
+      "type": "text"
+    },
+    "precio": {
+      "type": "float"
+    },
+    "almacenamiento": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "iphone",
+        "forro",
+        "audifono",
+        "cargador",
+        "cable",
+        "macbook",
+        "ipad",
+        "accesorio"
+      ]
+    },
+    "liberado": {
+      "type": "boolean"
+    }
+  }
+}

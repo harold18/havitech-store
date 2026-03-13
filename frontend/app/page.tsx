@@ -4,7 +4,9 @@ import { getHomePageData } from "@/services/strapi";
 import HeroSection from "@/components/herosection";
 import AboutusSection from "@/components/aboutussection";
 import CompraAsistida from "@/components/compra-asistida";
+import CatalogoHero from "@/components/catalogo-hero";
 import FaqSection from "@/components/faqsection";
+import { Suspense } from "react";
 
 export default async function Home() {
   const strapiData = await getHomePageData();
@@ -22,9 +24,8 @@ export default async function Home() {
           <h1 className="font-bold text-xl text-center">HaviTech</h1>
           <li className="flex gap-4">
             <ul>inicio</ul>
-            <ul>otra vaina</ul>
-            <ul>otra vainaaa</ul>
-            <ul>un vainon</ul>
+            <ul>catalogo</ul>
+            <ul>venta</ul>
           </li>
         </div>
       </div>
@@ -46,9 +47,15 @@ export default async function Home() {
               return <AboutusSection key={uniqueKey} data={block} />;
             case "blocks.compra-asistida":
               return <CompraAsistida key={uniqueKey} data={block} />;
+            case "blocks.catalogo":
+              // Aquí implementas el Suspense para evitar el waterfall
+              return (
+              <Suspense key={uniqueKey} fallback={<div className="py-20 text-center text-white">Cargando catálogo de iPhones...</div>}>
+                <CatalogoHero data={block} />
+                </Suspense>
+              );
             case "blocks.faq":
               return <FaqSection key={uniqueKey} data={block} />;
-
             default:
               return <div key={uniqueKey} className="p-4 bg-red-100 text-red-600">Componente desconocido: {block.__component}</div>;
           }

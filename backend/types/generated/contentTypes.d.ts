@@ -430,6 +430,59 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiCatalogoCatalogo extends Struct.CollectionTypeSchema {
+  collectionName: 'catalogos';
+  info: {
+    displayName: 'catalogo';
+    pluralName: 'catalogos';
+    singularName: 'catalogo';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    almacenamiento: Schema.Attribute.String;
+    categoria: Schema.Attribute.Enumeration<
+      [
+        'iphone',
+        'forro',
+        'audifono',
+        'cargador',
+        'cable',
+        'macbook',
+        'ipad',
+        'accesorio',
+      ]
+    >;
+    color: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    descrip: Schema.Attribute.Text;
+    estado: Schema.Attribute.Enumeration<
+      ['Nuevo', 'Excelente', 'Buen estado', 'Aceptable']
+    > &
+      Schema.Attribute.DefaultTo<'Excelente'>;
+    fotos: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    liberado: Schema.Attribute.Boolean;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::catalogo.catalogo'
+    > &
+      Schema.Attribute.Private;
+    modelo: Schema.Attribute.String;
+    precio: Schema.Attribute.Float;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
   collectionName: 'homepages';
   info: {
@@ -442,7 +495,13 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
   };
   attributes: {
     blocks: Schema.Attribute.DynamicZone<
-      ['blocks.hero', 'blocks.faq', 'blocks.about-us', 'blocks.compra-asistida']
+      [
+        'blocks.hero',
+        'blocks.faq',
+        'blocks.about-us',
+        'blocks.compra-asistida',
+        'blocks.catalogo',
+      ]
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -971,6 +1030,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::catalogo.catalogo': ApiCatalogoCatalogo;
       'api::homepage.homepage': ApiHomepageHomepage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

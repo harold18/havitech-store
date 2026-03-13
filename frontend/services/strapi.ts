@@ -19,6 +19,9 @@ export async function getHomePageData() {
           'blocks.faq': { 
             populate: '*' 
           },
+          'blocks.catalogo': {
+            populate: '*'
+          },
           'blocks.compra-asistida': {
             populate: '*'
           }

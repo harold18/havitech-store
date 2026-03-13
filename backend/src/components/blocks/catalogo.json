@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_catalogos",
+  "info": {
+    "displayName": "catalogo-hero",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descrip": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
