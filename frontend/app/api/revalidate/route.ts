@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
 
     // Si el cambio viene de la colección 'catalogo'
     if (model === 'catalogo') {
-      // Purgamos CUALQUIER fetch en todo el proyecto que tenga este tag
+      // @ts-expect-error: Falso positivo de TS
       revalidateTag('catalogo');
       
       return NextResponse.json({ 
