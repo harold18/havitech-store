@@ -29,8 +29,9 @@ export default async function DetalleIphonePage({ params }: Props) {
 
   const descripLines = iphone.descrip ? iphone.descrip.split('\n') : [];
 
+  // CORRECCIÓN APLICADA AQUÍ: Filtrado estricto de nulos
   const urlsAbsolutas = iphone.fotos && iphone.fotos.length > 0
-    ? iphone.fotos.map((foto: { url: string }) => getImageUrl(foto.url))
+    ? iphone.fotos.map((foto: { url: string }) => getImageUrl(foto.url)).filter((url): url is string => typeof url === 'string')
     : [];
 
   const WHATSAPP_PHONE = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "";
